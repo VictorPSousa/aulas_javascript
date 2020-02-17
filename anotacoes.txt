@@ -1,0 +1,122 @@
+TypeScript é um superset da linguagem JavaScript. Como um checador de tipagem.
+
+Função de primeira classe: pode ser atribuida a uma variável ou estrutura de dados (ex: array).
+
+Closure: Capacidade de uma funcção de lembrar de onde ela foi criada.
+Closure ou escopo léxico é a capacidade da função "lembrar" do seu contexto de criação.
+
+3 tipos de escopo: escopo global, escopo de função e o escopo de bloco.
+
+Currying: Técnica de transformar várias funções que recebem vários parâmetros em uma única.
+
+Hoisting: Levantar/suspender algo(como se fosse subir no código). De função ou de variável.
+
+Variável undefined(existe mas não foi definida) ou reference error(não existe/não encontrada).
+
+BOA PRÁTICA: Declarar primeiro a função antes de usá-la.
+
+Imutabilidade: (Conceito de linguagens funcionais: onde os dados não mudam, ou seja, variáveis são constantes).
+
+Três tipor de guardar variáveis: var, let e const.
+
+// escopo global
+
+{
+    // escopo de bloco
+}
+
+function test(){
+    // escopo de função
+}
+
+let e const vão respeitar o escopo de bloco, pois não é uma boa prática programar no escopo global.
+
+const usado para declarar um objeto é possível alterar seus valores.
+
+Javascript é uma linguagem de funções de primeira classe e funções de ordem maior, pois...
+É possível atribuir funções a variáveis, retornar funções de outras funções e passar funções como parâmetro para outras funções.
+
+O que é Hoisting e quais tipos existem?
+Hoisting ou içamento é a capacidade do JavaScript elevar a criação de variáveis e funções ao topo do escopo de suas criações. Existem dois tipos de Hoisting: hoisting de variável e hoisting de função.
+
+ECMAScript é uma especificação de linguagem script criada pela Ecma International, utilizada por linguagens como: ActionScript, JScript e Javascript.
+
+3 - O JavaScript teve dois nomes anteriores: Mocha e Livescript.
+4 - Foi lançado junto com a versão beta do Netscape 2.0
+
+JS tem 6 tipos primitivos: string, number, boolean, null, undefined(existe mas não foi definida) e symbol. Além de Object, Function e Array.
+
+typeof retorna o tipo da variável
+
+functions e arrays também são objetos.
+
+function fn(){
+
+}
+
+const arrowFn() = () => 'algo';
+
+Filter (filtra), map, reduce(transforma em número) são funções que retornam arrays de forma encadeada.
+
+code runner (Extensão).
+
+2 ** 3 -> 2 elevado a 3 = 8
+
+== igual
+
+!= não igual
+
+=== melhor maneira pois faz a comparação por tipo
+
+!== Estritamente não igual
+
+Ternário -> condicao ? valor0 : valor2
+
+OPERADORES LÓGICOS: (E = &&)
+var a5 = "Gato" && "Cão"; // t && t retorna Cão
+var a6 = False && "Gato"; // t && t retorna False
+var a7 = "Gato" && False; // t && t retorna False
+
+Ou seja, o lado importa ao menos que sejam comparados booleanos(true or false).
+
+OU = ||
+var b5 = "Gato" || "Cão"; // t && t retorna Gato
+var b6 = False || "Gato"; // f && t retorna Gato
+var b7 = "Gato" || False; // t && f retorna Gato
+
+var n3 = !"Gato"; //false  
+
+!! para evitar o problema do false e do gato no E.
+
+Operador spread = array e objetos, itera cada item e passa como parâmetro
+
+var partes = ['ombro', 'joelhos'];
+var musica = ['cabeca', ...partes, 'e', 'pés'];
+
+então 
+var musica = ['cabeca', 'ombro', 'joelhos', 'e', 'pés'];
+
+É a aplicação do conceito de imutabilidade, onde se cria algo novo mas sem alterar algo já existente.
+
+Operadores unários: delete algo; // deleta algo
+typeof algo; // tipo de dado da variável
+
+Oper binário:
+isso in nisso; // está em e retorna true ou false;
+
+instanceof // verifica se o objeto é instância de algo e retorna true ou false;
+
+
+Switch case: o default sempre é executado na ausência do break;
+
+continue: pula uma iteração
+break: mata o laço
+
+for...in (para tudo no array por exmp)e o 
+for..of (atributos númerados)
+
+for(let filme of filmes)
+
+filosofo = "Hipó" + filosofo.substr(2, 7)
+
+Enum é um tipo de dados criado por você com valores pré-definidos por você. utilizando enums, seu código fica mais legível.

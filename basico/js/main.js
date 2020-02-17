@@ -1,4 +1,6 @@
 // DOM (Document Object Model) é o modelo de padrão e interface que define propriedades, métodos e eventos de elementos.
+// JavaScript é Interpretado. De tipagem fraca e dinâmica (não é necessário declarar os tipos de dados e
+// dinâmico porque o tipo de dado de uma variável pode se alterar a qualquer instante e podem ser realizadas operações entre elas).
 
 var nome = "Victor Sousa";
 var n1 = 19;
@@ -78,9 +80,8 @@ alert(d.getMonth()+1);
 alert(d.getMinutes());
 alert(d.getHours());
 alert(d.getDay());
-*/
 
-/* 
+
     FUNÇÕES
 
 function soma(n1, n2){
