@@ -1,5 +1,5 @@
 TypeScript é um superset da linguagem JavaScript. Como um checador de tipagem.
-
+Script = linguagem executada em real-time.
 Função de primeira classe: pode ser atribuida a uma variável ou estrutura de dados (ex: array).
 
 Closure: Capacidade de uma funcção de lembrar de onde ela foi criada.
