@@ -1,0 +1,32 @@
+Curso de JavaScript ES6 essencial.
+
+Herança, classes, modificadores de acesso, encapsulamento e static.
+
+Herança - baseada em protótipos (prototype): __proto__ baseado no construct
+__proto__ -> prototype -> constructor
+funções são objetos que podem ser chamados e passados como parÂmetros.
+função call passa um contexto pra função.
+O prototype contém a definição do objeto.
+é possível modificar tipos nativos com a implementação do prototype.
+
+Classes - ES6, simplificação da herança de protótipos, palavra reservada class.
+Babel - transpilador (entra código antigo sai novo - basicamente).
+
+O JS não tem modificadores de acesso. É um controle do que é  público ou privado dentro da classe;
+#name = ''; // atributo privado (versão 12 do JS)
+
+Encapsulamento -> ocultar detalhes do funcionamento interno.
+
+
+Static -> permite acessar métodos/atributos sem instanciar.
+
+------------------------------------
+
+Design Patterns -> padrões de projetos, são soluções generalistas para problemas comuns
+do desenvolvimento de software.
+
+Kent Beck - XP e TDD
+
+Tipos de DP - Criação(criação das classes), estrutural(composição para criar estruturas maiores) e comportamental(algoritmo e como o método se comporta).
+
++ usados: factory (chamar o objeto sem o new), singleton, decorator, observer e module.
