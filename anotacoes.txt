@@ -17,7 +17,7 @@ BOA PRÁTICA: Declarar primeiro a função antes de usá-la.
 
 Imutabilidade: (Conceito de linguagens funcionais: onde os dados não mudam, ou seja, variáveis são constantes).
 
-Três tipor de guardar variáveis: var, let e const.
+Três tipos de guardar variáveis: var, let e const.
 
 // escopo global
 
